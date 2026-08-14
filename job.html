@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI job opportunities</title>
+    <!-- <link rel="stylesheet" href="job.css"> -->
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #bea1a170;
+        }
+        .company-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .job-title {
+            font-size: 30px;
+            margin: 0;
+        }
+        .job-details {
+            font-size: 20px;
+        }
+        .search-div {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            height: 40px;
+        }
+        
+        .search-div input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            border-radius: 5px;
+            padding: 0 10px;
+        }
+        
+        .outer-search-div {
+            margin-top: 20px;
+        }
+
+        .job-listings {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding: 20px 10px;
+            flex-wrap: wrap;
+        }
+
+        .job-listing {
+            flex: 1;
+            min-width: 300px;
+            background-color: #916b2f;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .job-listing button {
+            background-color: #ffffff;
+            color: #0d8a6d;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .job-listing button a {
+            text-decoration: none;
+            color: #0d8a6d;
+        }
+
+        .job-footer {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+        }
+
+        .job-footer p {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <p class="company-name">ASHBY</p>
+    <p class="job-title">Job Search</p>
+    <p class="job-details"> <b>53,527</b> roles from <u>3,448</u> <i>companies</i></p>
+    </header>
+
+    <div class="outer-search-div">
+        <div class="search-div">
+            <input type="text" placeholder="Search for jobs...">
+            <input type="text" placeholder="Location">
+            <input type="text" placeholder="Company">
+        </div>
+    </div>
+    
+   <div class="job-listings">
+        <div class="job-listing">
+            <h2>Software Engineer</h2>
+            <p>Company: TechCorp</p>
+            <p>Location: San Francisco, CA</p>
+            <p>Type: Full Time</p>
+            <div class="job-footer">
+                <button><a href="https://jobs.ashbyhq.com/securebio/c5f6b96a-8a79-4298-9d6d-2581fc58903b/application" target="_blank">Apply Now</a></button>
+                <p>salary: $80,000 - $110,000</p>
+            </div>
+        </div>
+        <div class="job-listing">
+            <h2>Data Scientist</h2>
+            <p>Company: DataWorks</p>
+            <p>Location: New York, NY</p>
+            <p>Type: Full Time</p>
+            <div class="job-footer">
+                <button><a href="https://jobs.ashbyhq.com/securebio/c5f6b96a-8a79-4298-9d6d-2581fc58903b/application" target="_blank">Apply Now</a></button>
+                <p>salary: $90,000 - $120,000</p>
+            </div>
+        </div>
+        <div class="job-listing">
+            <h2>Product Manager</h2>
+            <p>Company: InnovateX</p>
+            <p>Location: Austin, TX</p>
+            <p>Type: Full Time</p>
+            <div class="job-footer">
+                <button><a href="https://jobs.ashbyhq.com/securebio/c5f6b96a-8a79-4298-9d6d-2581fc58903b/application" target="_blank">Apply Now</a></button>
+                <p>salary: $70,000 - $100,000</p>
+            </div>
+        </div>
+        <div class="job-listing">
+            <h2>UX Designer</h2>
+            <p>Company: Creative Minds</p>
+            <p>Location: Remote</p>
+            <p>Type: Contract</p>
+            <div class="job-footer">
+                <button><a href="https://jobs.ashbyhq.com/securebio/c5f6b96a-8a79-4298-9d6d-2581fc58903b/application" target="_blank">Apply Now</a></button>
+                <p>salary: $60,000 - $90,000</p>
+            </div>
+        </div>
+        <div class="job-listing">
+            <h2>DevOps Engineer</h2>
+            <p>Company: Cloud Solutions</p>
+            <p>Location: Seattle, WA</p>
+            <p>Type: Full Time</p>
+            <div class="job-footer">
+                <button><a href="https://jobs.ashbyhq.com/securebio/c5f6b96a-8a79-4298-9d6d-2581fc58903b/application" target="_blank">Apply Now</a></button>
+                <p>salary: $80,000 - $110,000</p>
+            </div>
+        </div>
+        <div class="job-listing">
+            <h2>Marketing Specialist</h2>
+            <p>Company: BrandBoost</p>
+            <p>Location: Chicago, IL</p>
+            <p>Type: Part Time</p>
+            <div class="job-footer">
+                <button><a href="https://jobs.ashbyhq.com/securebio/c5f6b96a-8a79-4298-9d6d-2581fc58903b/application" target="_blank">Apply Now</a></button>
+                <p>salary: $50,000 - $70,000</p>
+            </div>
+        </div>
+        <div class="job-listing">
+            <h2>AI Researcher</h2>
+            <p>Company: NeuralNet Labs</p>
+            <p>Location: Boston, MA</p>
+            <p>Type: Full Time</p>
+            <div class="job-footer">
+                <button><a href="https://jobs.ashbyhq.com/securebio/c5f6b96a-8a79-4298-9d6d-2581fc58903b/application" target="_blank">Apply Now</a></button>
+                <p>salary: $95,000 - $140,000</p>
+            </div>
+        </div>
+        <div class="job-listing">
+            <h2>Cybersecurity Analyst</h2>
+            <p>Company: SecureTech</p>
+            <p>Location: Remote</p>
+            <p>Type: Contract</p>
+            <div class="job-footer">
+                <button><a href="https://jobs.ashbyhq.com/securebio/c5f6b96a-8a79-4298-9d6d-2581fc58903b/application" target="_blank">Apply Now</a></button>
+                <p>salary: $70,000 - $100,000</p>
+            </div>
+        </div>
+   </div>
+</body>
+</html>

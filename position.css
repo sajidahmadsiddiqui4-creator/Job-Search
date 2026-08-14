@@ -1,0 +1,29 @@
+body{
+    height: 400px;
+    font -family: 'Times New Roman', serif;
+}
+.static{
+    position: static;
+    border: 3px solid #531ba1;
+    background-color: lightgreen;
+}
+.relative{
+    position: relative;
+    border: 3px solid #af1212;
+    background-color: rgb(9, 29, 97);
+    top: 30px;
+    left: 50;
+
+}
+.sticky{
+    position: sticky;
+    border: 3px solid #af1212;
+    background-color: rgb(9, 29, 97);
+    top: 0;
+}
+.fixed{
+    position: fixed;
+    border: 3px solid #af1212;
+    background-color: rgb(9, 29, 97);
+    top: 0;
+}
